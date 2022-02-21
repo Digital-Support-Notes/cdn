@@ -16,7 +16,7 @@ app.get('/api', function(req, res){
    console.log(res.get('Content-Disposition'));
    res.end();
 });
-app.listen(PORT, function(err){
+app.listen(port, function(err){
    if (err) console.log(err);
-   console.log("Server listening on PORT", PORT);
+   console.log("Server listening on PORT", port);
 });
