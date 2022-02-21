@@ -8,6 +8,6 @@ app.listen(port, () => {
   console.log(`Nayan Patel Digital Support Notes. (APP LISTENING)`)
 })
 
-res.attachment('static/sitelogo.svg)
+res.attachment('static/sitelogo.svg')
 // Content-Disposition: attachment; filename="sitelogo.svg"
 // Content-Type: image/svg
